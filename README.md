@@ -5,11 +5,13 @@ Panoramix Decompiler is a tool that decompiles compiled bytecode in Ethereum sma
 
 1. Install Panoramix: pip install panoramix
 
-2. Configure your network settings.
+2. Panoramix path configuration
 
-3. Extract the bytecode.
+3. Configure your network settings.
 
-4. Run the decompiler.
+4. Extract the bytecode.
+
+5. Run the decompiler.
 
 
 
