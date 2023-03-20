@@ -19,6 +19,6 @@ Contract_bytecode = web3.eth.get_code(web3.toChecksumAddress("0x93dd4a0b32b1e649
 # Bytecode decompiler
 def decompile(contractbytecode):
 #     ansi_escape = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
-    r = subprocess.check_output(['panoramix',tokenbytecode],universal_newlines=True)
+    r = subprocess.check_output(['panoramix',Contract_bytecode],universal_newlines=True)
 #     r1 = str(ansi_escape.sub('', r))
     return r
